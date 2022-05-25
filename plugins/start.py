@@ -26,8 +26,8 @@ async def start(client,message):
 	await message.reply_text(text =f"""
 	__This Is The Fastest File Renamer and Converter Bot With Permanant Thumbnail Support💯__
 	""",reply_to_message_id = message.message_id ,  
-	reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='⭕ Cʜᴀɴɴᴇʟ ⭕', url=f'https://t.me/{Config.UPDATE_CHANNEL}'),
-                                                 InlineKeyboardButton(text='⭕ Sᴜᴘᴘᴏʀᴛ ⭕', url=f'https://t.me/{Config.UPDATE_GROUP}') ],
+	reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='⭕ Cʜᴀɴɴᴇʟ ⭕', url=f'https://t.me/RR_Studioo'),
+                                                 InlineKeyboardButton(text='⭕ Sᴜᴘᴘᴏʀᴛ ⭕', url=f'https://t.me/RR_Studioo') ],
                                                [ InlineKeyboardButton(text='👮 DᴇvᴇlopᴇR', url='https://t.me/iFilms_Owner'),
                                                  InlineKeyboardButton(text='🚸 Pᴏweʀᴇd By', url='https://t.me/Filmokamella') ] ] ) )
 
